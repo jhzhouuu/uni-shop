@@ -27,7 +27,16 @@
 			// "enablePullDownRefresh": false
 		}
 
-	}],
+	}    ,{
+            "path" : "uni_modules/my-search/components/my-search/my-search/my-search",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
  "subPackages": [
  {
 	 "root":"subpkg",
@@ -44,8 +53,17 @@
                     "path" : "goods_list/goods_list",
                     "style" :                                                                                    
                 {
-                    "navigationBarTitleText": "",
-                    "enablePullDownRefresh": false
+                    // "navigationBarTitleText": "",
+                    // "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "search/search",
+                    "style" :                                                                                    
+                {
+                //     "navigationBarTitleText": "",
+                //     "enablePullDownRefresh": false
                 }
                 
                 }
