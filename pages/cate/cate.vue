@@ -73,7 +73,7 @@
 				this.cateLevel2 = this.cateList[index].children
 				this.scrollTop= Math.random()
 			},
-			//跳转到商品详情页面
+			//跳转到商品列表页面
 			gotGoodsList(item){
 				uni.navigateTo({
 					url:'/subpkg/goods_list/goods_list?cid=' + item.cat_id
